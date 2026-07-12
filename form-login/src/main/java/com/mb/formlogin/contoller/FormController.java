@@ -15,6 +15,7 @@ public class FormController {
     public String publicPage() {
         return "Welcome to public page!!! 🥱";
     }
+
     @GetMapping("/private")
     public String privatePage() {
         return "Welcome to private page!!! 🤫";
